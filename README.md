@@ -1,1 +1,3 @@
-# Volume_Hand_Control
+# Volume_Hand_Control(OpenCV)
+Volume Hand Control is a computer vision–based project that enables users to adjust system audio volume through hand gestures instead of traditional input devices like a keyboard or mouse. The project uses OpenCV for real-time video capture and MediaPipe for accurate hand landmark detection. By tracking the distance between the thumb tip and index finger tip, the system maps this distance to a volume range using interpolation. The PyCaw library is then used to control the system’s audio levels on Windows.
+A dynamic volume bar and percentage indicator are displayed on the screen, providing real-time feedback to the user. The project demonstrates how computer vision and gesture recognition can be applied in human–computer interaction (HCI), creating a touchless and intuitive method for volume control.
